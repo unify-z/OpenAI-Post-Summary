@@ -1,0 +1,17 @@
+web:
+  host: 0.0.0.0
+  port: 8000
+mongo_db:
+  host:  # mongodb 连接地址
+  port: # mongodb 连接端口
+  db_name: "" # mongodb 数据库名称
+  collection_name: "" # mongodb 集合名称
+  username: "" # mongodb 登录用户名
+  password: "" # mongodb 登录密码
+openai:
+  apikey: '' #openai api key
+  endpoint: '' #openai api endpoint
+  model: "gpt-4o-mini" #使用的gpt模型
+auth:
+ key: '' #鉴权apikey
+ referer_whilelist: [''] #域名白名单列表
